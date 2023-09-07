@@ -1,4 +1,4 @@
-SURC = *.cpp
+SURC = ex03.cpp
 EXEC = run
 CC = g++
 FLAG = -std=c++11 -g
