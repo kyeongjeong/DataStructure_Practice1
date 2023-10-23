@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+int TreeSize = 10;
+
 class Element {
 public:
     int key;

@@ -124,7 +124,7 @@ void AVL<K,E>::Insert(const K&k, const E&e) {
 
         else { // rotation type: LR
 
-            c = b->leftChild;
+            c = b->rightChild;
             b->rightChild = c->leftChild;
             a->leftChild = c->rightChild;
             c->leftChild = b;
